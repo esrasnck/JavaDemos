@@ -10,6 +10,7 @@ public class Main {
 		
 		sayilar1 = new int [4];
 		
+		//aa
 		System.out.println(sayilar1[0]);
 
 		ArrayList sayilar =new ArrayList();
