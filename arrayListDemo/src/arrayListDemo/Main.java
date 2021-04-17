@@ -12,7 +12,6 @@ public class Main {
 		
 		System.out.println(sayilar1[0]);
 
-		/// asdfasdfasdd
 		ArrayList sayilar =new ArrayList();
 		sayilar.add(1);
 		sayilar.add(10);
