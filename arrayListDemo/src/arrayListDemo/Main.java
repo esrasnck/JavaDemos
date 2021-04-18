@@ -10,7 +10,7 @@ public class Main {
 		
 		sayilar1 = new int [4];
 		
-		//aa
+		
 		System.out.println(sayilar1[0]);
 
 		ArrayList sayilar =new ArrayList();
@@ -18,9 +18,14 @@ public class Main {
 		sayilar.add(10);
 		sayilar.add("Ankara"); // obje alır
 
-		sayilar.set(0,"istanbul");
-
+		// sayilar.set(0,"istanbul");
+        //    sayilar.remove(0);
+		//sayilar.clear();
 		//System.out.println(sayilar.size());
 		System.out.println(sayilar.get(0));
+		
+		for(Object sayi:sayilar) {
+			System.out.println(sayi);
+		}
 }
 }
